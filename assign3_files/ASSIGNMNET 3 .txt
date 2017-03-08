@@ -1,0 +1,44 @@
+Taxi Company 
+
+Improved via inheritance (chapter 8 and 9)
+
+TaxiCo Object created -> 
+	name; 
+	"fleet" of taxis and shuttles are created 
+	-> addTaxi and addShuttle (methods of TaxiCo)
+	
+	Unit testing  (chapter 7)
+	
+	<- turn on (BlueJ/Preferences/interface tab - "show unit testing tool". 
+	Once this has
+been done, a sample company, with two taxis and one shuttle, can be placed on the
+object bench by right clicking over the Helper class and selecting Test Fixture to
+Object Bench. Do that and then call the TaxiCo’s showStatus method to print a list
+of the statuses of the three vehicles. You can find out more about the unit testing
+features in chapter 7 of the course textbook and one of the appendices.
+
+Taxi - ID,Location, Destination
+
+Shuttles - ID, Location, Destination, (route list)
+
+*** New Class
+	Vehicle 
+	superclass of taxi and shuttle
+		id, location and destination
+		getID, getLocation, getDestination, getStatus and setDestination
+	- use the testing
+	
+(25 marks)
+
+*** polymorphism 
+	replace two lists with single list of vehicles
+		look up method will change and showstatus method will only require one loop
+
+(15 marks)
+
+***  imrpoved status information 
+	change the return strong for the getStatus method 
+	
+(10 marks)
+
+		

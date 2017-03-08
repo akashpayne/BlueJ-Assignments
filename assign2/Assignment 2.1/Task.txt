@@ -1,0 +1,49 @@
+LoanCompany class  
+	array list to store arbitararily long collection 
+	of studentLoan objects.
+
+studentLoan: <-- flexible size collection class
+	studentID; loanAmount
+	accessor methods
+	
+	payOff method
+	printDetails method
+	
+addLoan
+	2 parameters: ID and Loan Amount
+	Create a student Loan using the two parameters
+	Store the studentLoan in the collection
+	
+getNumberOfLoans
+	returns (not print) the number of StudentLoan objects 
+	
+list
+	prints details of all the student loans objects in one collection, one per line, 
+	with an index number against each
+	0: Student ID: ABC123 owes 5000
+	1: Student ID: XYZ123 owes 200
+	(use printDetails)
+	
+removeLoan
+	takes an integer index as parameter and removes the StudentLoan at that index from the collection. 
+	error message if index is not valid. (if)
+
+repay
+	two int param's: index and amount
+	call payOff method at index given
+	passes the given amount
+	Prints error message if index is not valid and null
+
+showOutstanding
+	pritns details of only those students who have a non-zero amount in their loan
+
+	
+removeClearedLoans
+	removes all of studentLoan Objects from collection that have a ZERO amount
+
+	
+	
+	
+
+
+	

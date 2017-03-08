@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ initialisePrice()
+comment0.text=\ initialisation\ of\ house\ -\ sets\ the\ default\ price\ to\ 1000000\r\n\ initialise\ House,\ price\ \=\ 1000000\r\n\ (assessment\ changed\ this\ to\ setPrice)\r\n
+comment1.params=amount
+comment1.target=void\ setPrice(int)
+comment1.text=\r\n\ Obtain\ House,\ set\ price\ \r\n
+comment2.params=label
+comment2.target=void\ setAddress(java.lang.String)
+comment2.text=\r\n\ Obtain\ House,\ set\ address\ (label)\r\n
+comment3.params=
+comment3.target=int\ getPrice()
+comment3.text=\r\n\ Return\ the\ price\ of\ the\ house.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getAddress()
+comment4.text=\r\n\ Return\ the\ address\ of\ the\ house.\r\n
+comment5.params=amount
+comment5.target=void\ increasePrice(int)
+comment5.text=\r\n\ Obtains\ an\ amount\ increase\ for\ the\ house\ \r\n\ price\ and\ gets\ a\ total\r\n\ checks\ that\ the\ amount\ is\ sensible\r\n\ if\ not\ displays\ error\ message,\ identifying\ both\ what\ was\ called\ \r\n\ incorrectly,\ and\ the\ incorrect\ parameter\ value\ that\ was\ used.\r\n
+comment6.params=amount
+comment6.target=void\ decreasePrice(int)
+comment6.text=\r\n\ Obtains\ an\ amount\ decrease\ for\ the\ house\ \r\n\ price\ and\ gets\ a\ total\r\n\ checks\ that\ the\ amount\ is\ sensible\r\n\ if\ not\ displays\ error\ message,\ identifying\ both\ what\ was\ called\ \r\n\ incorrectly,\ and\ the\ incorrect\ parameter\ value\ that\ was\ used.\r\n
+comment7.params=
+comment7.target=void\ printHouse()
+comment7.text=\r\n\ Prints\ the\ address\ of\ the\ house\ and\ its\ price\r\n\ on\ a\ single\ output\ line\r\n\ checks\ that\ the\ amount\ is\ sensible\r\n
+numComments=8

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=id\ amount
+comment0.target=StudentLoan(java.lang.String,\ int)
+comment0.text=\r\n\ Create\ a\ new\ student\ with\ a\ given\ ID\ and\ loan\ amount.\r\n\ @param\ id\ The\ student's\ ID\r\n\ @param\ amount\ The\ loan\ amount.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ This\ must\ not\ be\ negative.\r\n\ @throws\ IllegalStateException\ if\ amount\ is\ negative.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getStudentID()
+comment1.text=\r\n\ Return\ the\ ID\ of\ this\ student.\r\n\ @return\ The\ ID.\r\n
+comment2.params=
+comment2.target=int\ getAmount()
+comment2.text=\r\n\ Return\ the\ amount\ of\ the\ loan\ for\ this\ student.\r\n\ @return\ The\ loan\ amount.\r\n
+comment3.params=payment
+comment3.target=void\ payOff(int)
+comment3.text=\r\n\ Pay\ off\ some\ of\ the\ loan.\r\n\ @param\ payment\ The\ amount\ to\ be\ paid\ off.\r\n
+comment4.params=
+comment4.target=void\ printDetails()
+comment4.text=\r\n\ Print\ the\ student's\ ID\ number\ and\ amount\ left\ to\ pay.\r\n
+numComments=5

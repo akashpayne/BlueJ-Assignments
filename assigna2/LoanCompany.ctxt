@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LoanCompany()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ LoanCompany\r\n
+comment1.params=loan
+comment1.target=void\ addLoan(StudentLoan)
+comment1.text=\r\n\ "addLoan"\ -\ a\ method\ taking\ two\ parameters\:\ the\ ID\ of\ a\ student\ and\ a\ \r\n\ loan\ amount,\ in\ that\ order.\ The\ method\ creates\ a\ StudentLoan\ object\ using\r\n\ those\ two\ parameters\ and\ store\ the\ StudentLoan\ in\ the\ collection.\r\n
+comment2.params=
+comment2.target=int\ getNumberOfLoans()
+comment2.text=\r\n\ A\ method\ that\ returns\ the\ number\ of\ Student\ Loan\ Objects\ in\ the\ Collection.\ \r\n
+comment3.params=index
+comment3.target=void\ list(int)
+comment3.text=\r\n\ A\ method\ that\ prints\ the\ deatils\ of\ all\ the\ Student\ Loan\ Objects\ in\ the\r\n\ collection,\ one\ per\ line,\ with\ an\ index\ number\ against\ each\ (index\ starts\r\n\ at\ 0).\r\n
+comment4.params=index
+comment4.target=void\ removeLoan(int)
+comment4.text=\r\n\ A\ method\ that\ takes\ an\ integer\ index\ as\ its\ parameter\ and\ removes\ \r\n\ the\ Student\ Loan\ at\ that\ Index\ from\ the\ collection.\ \r\n\ If\ the\ Index\ is\ not\ valid\ than\ an\ error\ message\ should\ be\ printed\r\n\ and\ the\ removal\ should\ not\ be\ attempted.\r\n
+numComments=5

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=id\ base
+comment0.target=Vehicle(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Vehicle\r\n\r\n\ @param\ base\ The\ name\ of\ the\ company's\ base.\r\n\ @param\ id\ This\ Vehicle's\ unique\ id.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getID()
+comment1.text=\r\n\ Return\ the\ ID\ of\ the\ Vehicle.\r\n\ @return\ The\ ID\ of\ the\ Vehicle.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLocation()
+comment2.text=\r\n\ Return\ the\ location\ of\ the\ Vehicle.\r\n\ @return\ The\ location\ of\ the\ Vehicle.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDestination()
+comment3.text=\r\n\ Return\ the\ destination\ of\ the\ Vehicle.\r\n\ @return\ The\ destination\ of\ the\ Vehicle.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getStatus()
+comment4.text=\r\n\ Return\ the\ status\ of\ this\ Vehicle.\r\n\ @return\ The\ status\ of\ this\ Vehicle.\r\n
+comment5.params=destination
+comment5.target=void\ setDestination(java.lang.String)
+comment5.text=\r\n\ Set\ the\ intented\ destination\ of\ the\ Vehicle.\r\n\ @param\ destination\ The\ intended\ destination.\r\n
+comment6.params=location
+comment6.target=void\ setLocation(java.lang.String)
+comment6.text=\r\n\ Set\ the\ location\ of\ the\ Vehicle\ to\ the\ destination\r\n\ or\ set\ location\ to\ a\ string\ variable.\ \r\n\ @param\ location\ The\ reached\ destination.\r\n\ @param\ arrived\ Whether\ or\ not\ to\ use\ location\ string.\ \r\n
+numComments=7
